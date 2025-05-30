@@ -371,7 +371,7 @@
           {
             "position": {
               "x": 620,
-              "y": 280
+              "y": 300
             },
             "size": {
               "width": 120,
@@ -830,106 +830,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Store Voter \nRegistration Data",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Store Voter \nRegistration Data"
-            ],
-            "id": "16322b55-7b64-4ded-9e2a-241afc9d3349",
-            "source": {
-              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
-              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
-            },
-            "target": {
-              "cell": "8dc79570-a6d3-4387-b06a-352e79c5dbd5",
-              "port": "7a184b5a-4818-42d9-9899-a36a5713f282"
-            },
-            "vertices": [
-              {
-                "x": 460,
-                "y": 290
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Store Candidate \nRegistration Data",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Store Candidate \nRegistration Data"
-            ],
-            "id": "1b2ce9d1-77b3-44d5-876a-c24f44dba3cb",
-            "source": {
-              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
-              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
-            },
-            "target": {
-              "cell": "8dc79570-a6d3-4387-b06a-352e79c5dbd5",
-              "port": "f62ecc6c-1a7d-4ae1-9204-7938e17d50e3"
-            },
-            "vertices": [
-              {
-                "x": 760,
-                "y": 220
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Send Transaction \nto Blockchain",
               "description": "",
               "outOfScope": false,
@@ -1280,6 +1180,156 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Enables administrator \nto export credentials,\n passwords, and keys",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Enables administrator \nto export credentials,\n passwords, and keys"
+            ],
+            "id": "9fef982c-e805-43a1-930d-c2d85663cf5c",
+            "source": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
+            },
+            "target": {
+              "cell": "6a580872-d3c6-4211-9ad3-c771e67c0515",
+              "port": "b0428f14-4212-4e40-a644-3daa0f6b7e2e"
+            },
+            "vertices": [
+              {
+                "x": 770,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store Candidate \nRegistration Data",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Store Candidate \nRegistration Data"
+            ],
+            "id": "1b2ce9d1-77b3-44d5-876a-c24f44dba3cb",
+            "source": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
+            },
+            "target": {
+              "cell": "8dc79570-a6d3-4387-b06a-352e79c5dbd5",
+              "port": "aa8b46af-7b93-4daa-a0f9-133df6b6c65d"
+            },
+            "vertices": [
+              {
+                "x": 850,
+                "y": 220
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store Voter \nRegistration Data",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Store Voter \nRegistration Data"
+            ],
+            "id": "16322b55-7b64-4ded-9e2a-241afc9d3349",
+            "source": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "a184b53d-9d1c-49b9-8788-5a93ea8f636d"
+            },
+            "target": {
+              "cell": "8dc79570-a6d3-4387-b06a-352e79c5dbd5",
+              "port": "7a184b5a-4818-42d9-9899-a36a5713f282"
+            },
+            "vertices": [
+              {
+                "x": 450,
+                "y": 350
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Hashes the \npasswords",
               "description": "",
               "outOfScope": false,
@@ -1296,8 +1346,8 @@
             ],
             "id": "1d0d4abc-3236-4269-8d30-1aaf371bfea5",
             "source": {
-              "x": 420,
-              "y": 170
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "a184b53d-9d1c-49b9-8788-5a93ea8f636d"
             },
             "target": {
               "cell": "8dc79570-a6d3-4387-b06a-352e79c5dbd5",
@@ -1305,8 +1355,58 @@
             },
             "vertices": [
               {
-                "x": 500,
-                "y": 250
+                "x": 470,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Stores all \nuser credentials \nand informations",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Stores all \nuser credentials \nand informations"
+            ],
+            "id": "36593575-ce02-4286-b575-dd80219cbe9b",
+            "source": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
+            },
+            "target": {
+              "cell": "8dc79570-a6d3-4387-b06a-352e79c5dbd5",
+              "port": "aa8b46af-7b93-4daa-a0f9-133df6b6c65d"
+            },
+            "vertices": [
+              {
+                "x": 850,
+                "y": 280
               }
             ]
           },
@@ -1347,7 +1447,7 @@
             "id": "18167568-f4a2-4d4f-a6c8-14e26764ea05",
             "source": {
               "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
-              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
+              "port": "a184b53d-9d1c-49b9-8788-5a93ea8f636d"
             },
             "target": {
               "cell": "8dc79570-a6d3-4387-b06a-352e79c5dbd5",
@@ -1355,62 +1455,8 @@
             },
             "vertices": [
               {
-                "x": 440,
-                "y": 170
-              },
-              {
-                "x": 570,
-                "y": 230
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Enables administrator \nto export credentials,\n passwords, and keys",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Enables administrator \nto export credentials,\n passwords, and keys"
-            ],
-            "id": "9fef982c-e805-43a1-930d-c2d85663cf5c",
-            "source": {
-              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
-              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
-            },
-            "target": {
-              "cell": "6a580872-d3c6-4211-9ad3-c771e67c0515",
-              "port": "b0428f14-4212-4e40-a644-3daa0f6b7e2e"
-            },
-            "vertices": [
-              {
-                "x": 770,
-                "y": 100
+                "x": 510,
+                "y": 270
               }
             ]
           }
