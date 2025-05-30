@@ -930,56 +930,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Invalid administrator \nlogin",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Invalid administrator \nlogin"
-            ],
-            "id": "2ef14c1c-3678-406e-9785-3b696bcbcc68",
-            "source": {
-              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
-              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
-            },
-            "target": {
-              "cell": "6a580872-d3c6-4211-9ad3-c771e67c0515",
-              "port": "ecd89f43-4667-42fd-9ca6-79cb72abb27a"
-            },
-            "vertices": [
-              {
-                "x": 746,
-                "y": 210
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Send Transaction \nto Blockchain",
               "description": "",
               "outOfScope": false,
@@ -1180,7 +1130,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Load batch \nvoter information",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1192,9 +1142,9 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "Load batch \nvoter information"
             ],
-            "id": "7b564cdd-dd91-474f-bfc3-a1d772bfcd86",
+            "id": "7f83e779-fca6-4dec-bceb-45459629d739",
             "source": {
               "cell": "6a580872-d3c6-4211-9ad3-c771e67c0515",
               "port": "55d55de6-74e4-41a3-a6ba-58473c759228"
@@ -1205,8 +1155,158 @@
             },
             "vertices": [
               {
-                "x": 550,
+                "x": 560,
+                "y": 120
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Application generates a\npassword",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Application generates a\npassword"
+            ],
+            "id": "f0b520df-43d3-418d-a769-dd7a25162baa",
+            "source": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "f67401dc-eaed-4a17-85f8-60abee956a58"
+            },
+            "target": {
+              "cell": "38f8db92-a357-4f6e-97c9-adab8614df48",
+              "port": "b0428f14-4212-4e40-a644-3daa0f6b7e2e"
+            },
+            "vertices": [
+              {
+                "x": 300,
                 "y": 110
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Invalid administrator \nlogin",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Invalid administrator \nlogin"
+            ],
+            "id": "2ef14c1c-3678-406e-9785-3b696bcbcc68",
+            "source": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
+            },
+            "target": {
+              "cell": "6a580872-d3c6-4211-9ad3-c771e67c0515",
+              "port": "b0428f14-4212-4e40-a644-3daa0f6b7e2e"
+            },
+            "vertices": [
+              {
+                "x": 830,
+                "y": 220
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Enables administrator \nto export credentials,\n passwords, and keys",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Enables administrator \nto export credentials,\n passwords, and keys"
+            ],
+            "id": "9fef982c-e805-43a1-930d-c2d85663cf5c",
+            "source": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
+            },
+            "target": {
+              "cell": "6a580872-d3c6-4211-9ad3-c771e67c0515",
+              "port": "b0428f14-4212-4e40-a644-3daa0f6b7e2e"
+            },
+            "vertices": [
+              {
+                "x": 830,
+                "y": 170
               }
             ]
           }
