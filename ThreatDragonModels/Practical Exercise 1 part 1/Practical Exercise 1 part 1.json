@@ -19,7 +19,7 @@
         "cells": [
           {
             "position": {
-              "x": 290,
+              "x": 120,
               "y": 270
             },
             "size": {
@@ -138,8 +138,8 @@
           },
           {
             "position": {
-              "x": 194,
-              "y": 17
+              "x": 67.5,
+              "y": 10
             },
             "size": {
               "width": 112.5,
@@ -254,8 +254,8 @@
           },
           {
             "position": {
-              "x": 710,
-              "y": 17
+              "x": 690,
+              "y": 10
             },
             "size": {
               "width": 112.5,
@@ -630,56 +630,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Submit Signed\nBallot",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Submit Signed\nBallot"
-            ],
-            "id": "89d17982-3220-4508-8a99-bac0c539684b",
-            "source": {
-              "x": 190,
-              "y": 50
-            },
-            "target": {
-              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
-              "port": "f67401dc-eaed-4a17-85f8-60abee956a58"
-            },
-            "vertices": [
-              {
-                "x": 190,
-                "y": 110
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Voter \nAuthentication",
               "description": "",
               "outOfScope": false,
@@ -705,7 +655,7 @@
             },
             "vertices": [
               {
-                "x": 120,
+                "x": 40,
                 "y": 170
               }
             ]
@@ -752,7 +702,13 @@
             "target": {
               "cell": "38f8db92-a357-4f6e-97c9-adab8614df48",
               "port": "b0428f14-4212-4e40-a644-3daa0f6b7e2e"
-            }
+            },
+            "vertices": [
+              {
+                "x": 360,
+                "y": 80
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -774,7 +730,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Invalid voters credentials",
+              "name": "Invalid voters login",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -786,7 +742,7 @@
               "threats": []
             },
             "labels": [
-              "Invalid voters credentials"
+              "Invalid voters login"
             ],
             "id": "25cbfcbb-9522-4f4a-a018-470dd3617c70",
             "source": {
@@ -799,8 +755,8 @@
             },
             "vertices": [
               {
-                "x": 420,
-                "y": 80
+                "x": 390,
+                "y": 40
               }
             ]
           },
@@ -846,101 +802,13 @@
             "target": {
               "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
               "port": "de31480a-0e63-4888-843c-2f64855fee6f"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Transaction Status",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Transaction Status"
-            ],
-            "id": "ef71cd57-5b1b-43c5-9d1e-328523fba8ee",
-            "source": {
-              "cell": "41c590e7-1f3c-40bd-9452-8bbf4db55153",
-              "port": "f67401dc-eaed-4a17-85f8-60abee956a58"
-            },
-            "target": {
-              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
-              "port": "a184b53d-9d1c-49b9-8788-5a93ea8f636d"
             },
             "vertices": [
               {
-                "x": 230,
-                "y": 240
+                "x": 510,
+                "y": 40
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Send Transaction \nto Blockchain",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Send Transaction \nto Blockchain"
-            ],
-            "id": "191bff6c-4b08-450e-b3d2-a78689d45d26",
-            "source": {
-              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
-              "port": "a184b53d-9d1c-49b9-8788-5a93ea8f636d"
-            },
-            "target": {
-              "cell": "41c590e7-1f3c-40bd-9452-8bbf4db55153",
-              "port": "f6504ea0-ae93-43c9-9e1c-5fade8c4a671"
-            }
           },
           {
             "shape": "flow",
@@ -1039,6 +907,306 @@
               {
                 "x": 560,
                 "y": 190
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Invalid administrator \nlogin",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Invalid administrator \nlogin"
+            ],
+            "id": "2ef14c1c-3678-406e-9785-3b696bcbcc68",
+            "source": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
+            },
+            "target": {
+              "cell": "6a580872-d3c6-4211-9ad3-c771e67c0515",
+              "port": "ecd89f43-4667-42fd-9ca6-79cb72abb27a"
+            },
+            "vertices": [
+              {
+                "x": 746,
+                "y": 210
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send Transaction \nto Blockchain",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send Transaction \nto Blockchain"
+            ],
+            "id": "191bff6c-4b08-450e-b3d2-a78689d45d26",
+            "source": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "a184b53d-9d1c-49b9-8788-5a93ea8f636d"
+            },
+            "target": {
+              "cell": "41c590e7-1f3c-40bd-9452-8bbf4db55153",
+              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
+            },
+            "vertices": [
+              {
+                "x": 320,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Transaction Status",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Transaction Status"
+            ],
+            "id": "ef71cd57-5b1b-43c5-9d1e-328523fba8ee",
+            "source": {
+              "cell": "41c590e7-1f3c-40bd-9452-8bbf4db55153",
+              "port": "f6504ea0-ae93-43c9-9e1c-5fade8c4a671"
+            },
+            "target": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "a184b53d-9d1c-49b9-8788-5a93ea8f636d"
+            },
+            "vertices": [
+              {
+                "x": 260,
+                "y": 230
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Submit Signed\nBallot",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Submit Signed\nBallot"
+            ],
+            "id": "89d17982-3220-4508-8a99-bac0c539684b",
+            "source": {
+              "cell": "38f8db92-a357-4f6e-97c9-adab8614df48",
+              "port": "55d55de6-74e4-41a3-a6ba-58473c759228"
+            },
+            "target": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "f67401dc-eaed-4a17-85f8-60abee956a58"
+            },
+            "vertices": [
+              {
+                "x": 67.5,
+                "y": 120
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Create single \nvoter account",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Create single \nvoter account"
+            ],
+            "id": "3a8b9011-83ff-46e3-a183-0393afa227c2",
+            "source": {
+              "cell": "6a580872-d3c6-4211-9ad3-c771e67c0515",
+              "port": "55d55de6-74e4-41a3-a6ba-58473c759228"
+            },
+            "target": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": 80
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "7b564cdd-dd91-474f-bfc3-a1d772bfcd86",
+            "source": {
+              "cell": "6a580872-d3c6-4211-9ad3-c771e67c0515",
+              "port": "55d55de6-74e4-41a3-a6ba-58473c759228"
+            },
+            "target": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
+            },
+            "vertices": [
+              {
+                "x": 550,
+                "y": 110
               }
             ]
           }
