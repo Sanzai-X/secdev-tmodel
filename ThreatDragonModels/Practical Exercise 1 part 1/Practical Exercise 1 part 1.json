@@ -254,8 +254,8 @@
           },
           {
             "position": {
-              "x": 690,
-              "y": 10
+              "x": 610,
+              "y": 0
             },
             "size": {
               "width": 112.5,
@@ -855,8 +855,8 @@
             },
             "vertices": [
               {
-                "x": 490,
-                "y": 260
+                "x": 460,
+                "y": 290
               }
             ]
           },
@@ -905,8 +905,8 @@
             },
             "vertices": [
               {
-                "x": 560,
-                "y": 190
+                "x": 760,
+                "y": 220
               }
             ]
           },
@@ -1255,8 +1255,112 @@
             },
             "vertices": [
               {
-                "x": 830,
-                "y": 220
+                "x": 810,
+                "y": 140
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Hashes the \npasswords",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Hashes the \npasswords"
+            ],
+            "id": "1d0d4abc-3236-4269-8d30-1aaf371bfea5",
+            "source": {
+              "x": 420,
+              "y": 170
+            },
+            "target": {
+              "cell": "8dc79570-a6d3-4387-b06a-352e79c5dbd5",
+              "port": "7a184b5a-4818-42d9-9899-a36a5713f282"
+            },
+            "vertices": [
+              {
+                "x": 500,
+                "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Encrypts the \nprivate key \nof the voters",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Encrypts the \nprivate key \nof the voters"
+            ],
+            "id": "18167568-f4a2-4d4f-a6c8-14e26764ea05",
+            "source": {
+              "cell": "049e3845-c736-4c38-bea4-542b8724e0d2",
+              "port": "de31480a-0e63-4888-843c-2f64855fee6f"
+            },
+            "target": {
+              "cell": "8dc79570-a6d3-4387-b06a-352e79c5dbd5",
+              "port": "f62ecc6c-1a7d-4ae1-9204-7938e17d50e3"
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 170
+              },
+              {
+                "x": 570,
+                "y": 230
               }
             ]
           },
@@ -1305,8 +1409,8 @@
             },
             "vertices": [
               {
-                "x": 830,
-                "y": 170
+                "x": 770,
+                "y": 100
               }
             ]
           }
