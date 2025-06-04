@@ -1472,17 +1472,17 @@
         "cells": [
           {
             "position": {
-              "x": -600,
-              "y": -370
+              "x": -580.0000000000043,
+              "y": -339.99999999999443
             },
             "size": {
-              "width": 1980,
-              "height": 1740
+              "width": 2300,
+              "height": 1950
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "c194eaea-3502-470c-9285-19df913f51d9",
             "zIndex": -1,
+            "id": "c194eaea-3502-470c-9285-19df913f51d9",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -1502,8 +1502,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "c2c07479-4308-4c95-86ec-e37adb60623a",
             "zIndex": -1,
+            "id": "c2c07479-4308-4c95-86ec-e37adb60623a",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -1523,8 +1523,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "02632c8b-9f8c-4d3f-9d4a-1fe5aa14194a",
             "zIndex": -1,
+            "id": "02632c8b-9f8c-4d3f-9d4a-1fe5aa14194a",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -1554,6 +1554,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -1637,7 +1638,6 @@
               ]
             },
             "id": "46b0b1ea-bea4-465b-8226-734c24524c2d",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Nodejs",
@@ -1673,6 +1673,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -1756,7 +1757,6 @@
               ]
             },
             "id": "6ad05e3a-b0e1-4cf7-950c-b3adb6f524be",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Voter",
@@ -1789,6 +1789,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -1872,7 +1873,6 @@
               ]
             },
             "id": "73541f57-19fb-461a-a069-36509038e982",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Election\nAdministrator",
@@ -4194,6 +4194,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -4277,7 +4278,6 @@
               ]
             },
             "id": "17765c7a-e40c-4c1a-801b-45903afc70a7",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Base64 \nEncoder",
@@ -4313,6 +4313,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -4396,7 +4397,6 @@
               ]
             },
             "id": "4eece951-7e67-48e3-9c4a-3a35abfc7c59",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "Message \nEncryption",
@@ -4432,6 +4432,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -4515,7 +4516,6 @@
               ]
             },
             "id": "da29009c-b42a-4508-8655-ab61c456e6f4",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "File \nHashing",
@@ -4551,6 +4551,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -4634,7 +4635,6 @@
               ]
             },
             "id": "f411f8a4-c34c-4f3f-93b3-47b23e170490",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "JSON File \nGenerator",
@@ -4670,6 +4670,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -4753,7 +4754,6 @@
               ]
             },
             "id": "ea2b582e-a524-4639-ae00-303ff3395850",
-            "zIndex": 16,
             "data": {
               "type": "tm.Process",
               "name": "Election \nModule",
@@ -4789,6 +4789,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -4872,7 +4873,6 @@
               ]
             },
             "id": "f9bc8b76-1ee9-4889-8f8d-451a1f45c1f9",
-            "zIndex": 17,
             "data": {
               "type": "tm.Process",
               "name": "Etherium \nBlockchain",
@@ -4908,6 +4908,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -4991,7 +4992,6 @@
               ]
             },
             "id": "62d27926-19f2-4d5d-9ac8-84cec13ea4a9",
-            "zIndex": 18,
             "data": {
               "type": "tm.Process",
               "name": "Private Key \nDecryption",
@@ -5030,6 +5030,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -5113,7 +5114,6 @@
               ]
             },
             "id": "be9ed26b-0ff7-4460-b0ea-6cfb702db6d7",
-            "zIndex": 19,
             "data": {
               "type": "tm.Process",
               "name": "Authenticator",
@@ -5199,6 +5199,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 21,
             "ports": {
               "groups": {
                 "top": {
@@ -5282,7 +5283,6 @@
               ]
             },
             "id": "9c498ba1-5369-48d1-a3ae-fac04c787632",
-            "zIndex": 21,
             "data": {
               "type": "tm.Process",
               "name": "CSV File \nLoader",
@@ -5318,6 +5318,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -5401,7 +5402,6 @@
               ]
             },
             "id": "36cd8d6f-7970-4421-acc3-ce9998b4ebe8",
-            "zIndex": 22,
             "data": {
               "type": "tm.Process",
               "name": "Web \nApplication",
@@ -5437,6 +5437,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 23,
             "ports": {
               "groups": {
                 "top": {
@@ -5520,7 +5521,6 @@
               ]
             },
             "id": "7498f97f-3ae1-4bfb-9cbd-39d92b0e838a",
-            "zIndex": 23,
             "data": {
               "type": "tm.Process",
               "name": "password-\ngenerator.js",
@@ -5556,6 +5556,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 24,
             "ports": {
               "groups": {
                 "top": {
@@ -5639,7 +5640,6 @@
               ]
             },
             "id": "892c46ba-6486-4066-bec8-b74f863bb209",
-            "zIndex": 24,
             "data": {
               "type": "tm.Process",
               "name": "jsrsasign.js",
@@ -5675,6 +5675,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 25,
             "ports": {
               "groups": {
                 "top": {
@@ -5758,7 +5759,6 @@
               ]
             },
             "id": "7d426c89-de36-4b65-b0f9-d79c711cae1d",
-            "zIndex": 25,
             "data": {
               "type": "tm.Process",
               "name": "Hash\nPasswords",
@@ -5794,6 +5794,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 26,
             "ports": {
               "groups": {
                 "top": {
@@ -5877,7 +5878,6 @@
               ]
             },
             "id": "92db51df-1d15-4ecf-aceb-5fb080e0bc76",
-            "zIndex": 26,
             "data": {
               "type": "tm.Process",
               "name": "Private Key\nEncryption",
@@ -5916,6 +5916,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 27,
             "ports": {
               "groups": {
                 "top": {
@@ -5999,7 +6000,6 @@
               ]
             },
             "id": "41c92912-4914-4d0b-96fd-328aff2b770a",
-            "zIndex": 27,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
