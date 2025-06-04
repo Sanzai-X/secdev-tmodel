@@ -1514,6 +1514,27 @@
           },
           {
             "position": {
+              "x": 1448,
+              "y": 1135
+            },
+            "size": {
+              "width": 170,
+              "height": 90
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "02632c8b-9f8c-4d3f-9d4a-1fe5aa14194a",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 490,
               "y": 130
             },
