@@ -2691,6 +2691,100 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Record \nTransaction",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Record \nTransaction"
+            ],
+            "id": "74ac2dd4-a224-43c7-bd28-a2a5b889daf5",
+            "source": {
+              "cell": "ea2b582e-a524-4639-ae00-303ff3395850",
+              "port": "3a973adf-96dc-43e0-9a59-960dd1aed336"
+            },
+            "target": {
+              "cell": "f9bc8b76-1ee9-4889-8f8d-451a1f45c1f9",
+              "port": "e26e0f73-d700-45d4-ac60-c7f9c68e08cc"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Return Decrypted \nPrivate Key",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Return Decrypted \nPrivate Key"
+            ],
+            "id": "f4883dbe-0157-4ade-8c50-540efe6be8de",
+            "source": {
+              "cell": "62d27926-19f2-4d5d-9ac8-84cec13ea4a9",
+              "port": "e26e0f73-d700-45d4-ac60-c7f9c68e08cc"
+            },
+            "target": {
+              "cell": "46b0b1ea-bea4-465b-8226-734c24524c2d",
+              "port": "e5b4ee89-37f4-4fd7-b30c-c7954b7a6cd6"
+            },
+            "vertices": [
+              {
+                "x": -70,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Signed, Original, \nEncoded Ballot and\nPublic Key",
               "description": "",
               "outOfScope": false,
@@ -2712,127 +2806,64 @@
             },
             "target": {
               "cell": "ea2b582e-a524-4639-ae00-303ff3395850",
-              "port": "e26e0f73-d700-45d4-ac60-c7f9c68e08cc"
+              "port": "e5b4ee89-37f4-4fd7-b30c-c7954b7a6cd6"
             },
             "vertices": [
               {
-                "x": 106,
-                "y": 230
+                "x": 30,
+                "y": 320
               }
             ]
           },
           {
-            "position": {
-              "x": -50,
-              "y": 90
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
+            "shape": "flow",
             "attrs": {
-              "body": {
+              "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
                 "strokeDasharray": null
               }
             },
-            "visible": true,
-            "shape": "actor",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "73450f46-193e-47f9-b437-91cb2ef49087"
-                },
-                {
-                  "group": "right",
-                  "id": "a158a5d0-a149-4257-9944-f72457a4c2c0"
-                },
-                {
-                  "group": "bottom",
-                  "id": "4d2c9b15-5147-4d2b-b5f5-f02f37b1b8c8"
-                },
-                {
-                  "group": "left",
-                  "id": "f7d04c21-7f67-4036-abaa-a4b342d54a50"
-                }
-              ]
-            },
-            "id": "f546745c-bf66-45a9-a3c6-93ae41741367",
-            "zIndex": 11,
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
             "data": {
-              "type": "tm.Actor",
-              "name": "Actor",
+              "type": "tm.Flow",
+              "name": "Decrypt Voter \nKey",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "providesAuthentication": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
               "threats": []
-            }
+            },
+            "labels": [
+              "Decrypt Voter \nKey"
+            ],
+            "id": "05f8ec34-a7cb-446e-a685-ec7fa1d0c970",
+            "source": {
+              "cell": "46b0b1ea-bea4-465b-8226-734c24524c2d",
+              "port": "e5b4ee89-37f4-4fd7-b30c-c7954b7a6cd6"
+            },
+            "target": {
+              "cell": "62d27926-19f2-4d5d-9ac8-84cec13ea4a9",
+              "port": "e26e0f73-d700-45d4-ac60-c7f9c68e08cc"
+            },
+            "vertices": [
+              {
+                "x": -40,
+                "y": 250
+              }
+            ]
           },
           {
             "position": {
@@ -3312,8 +3343,8 @@
           },
           {
             "position": {
-              "x": 76,
-              "y": 400
+              "x": 150,
+              "y": 530
             },
             "size": {
               "width": 60,
@@ -3418,6 +3449,244 @@
             "data": {
               "type": "tm.Process",
               "name": "Election \nModule",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 150,
+              "y": 960
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Etherium \nBlockchain"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e26e0f73-d700-45d4-ac60-c7f9c68e08cc"
+                },
+                {
+                  "group": "right",
+                  "id": "24f4a687-c0db-4160-8328-95167816cb65"
+                },
+                {
+                  "group": "bottom",
+                  "id": "3a973adf-96dc-43e0-9a59-960dd1aed336"
+                },
+                {
+                  "group": "left",
+                  "id": "e5b4ee89-37f4-4fd7-b30c-c7954b7a6cd6"
+                }
+              ]
+            },
+            "id": "f9bc8b76-1ee9-4889-8f8d-451a1f45c1f9",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Process",
+              "name": "Etherium \nBlockchain",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -210,
+              "y": 390
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Private Key \nDecryption"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e26e0f73-d700-45d4-ac60-c7f9c68e08cc"
+                },
+                {
+                  "group": "right",
+                  "id": "24f4a687-c0db-4160-8328-95167816cb65"
+                },
+                {
+                  "group": "bottom",
+                  "id": "3a973adf-96dc-43e0-9a59-960dd1aed336"
+                },
+                {
+                  "group": "left",
+                  "id": "e5b4ee89-37f4-4fd7-b30c-c7954b7a6cd6"
+                }
+              ]
+            },
+            "id": "62d27926-19f2-4d5d-9ac8-84cec13ea4a9",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Process",
+              "name": "Private Key \nDecryption",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
