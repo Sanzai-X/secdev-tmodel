@@ -2898,7 +2898,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Decrypt Voter \nKey",
+              "name": "Decrypt Voter(s)\nKey",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2910,7 +2910,7 @@
               "threats": []
             },
             "labels": [
-              "Decrypt Voter \nKey"
+              "Decrypt Voter(s)\nKey"
             ],
             "id": "05f8ec34-a7cb-446e-a685-ec7fa1d0c970",
             "source": {
@@ -2926,7 +2926,17 @@
                 "x": 180,
                 "y": -100
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
@@ -5546,7 +5556,7 @@
             },
             "attrs": {
               "text": {
-                "text": "keys-assign.js"
+                "text": "jsrsasign.js"
               },
               "body": {
                 "stroke": "#333333",
@@ -5642,7 +5652,7 @@
             "zIndex": 24,
             "data": {
               "type": "tm.Process",
-              "name": "keys-assign.js",
+              "name": "jsrsasign.js",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
